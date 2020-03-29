@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lonni's Quiz</title>
+    <link href="style.css" rel ="stylesheet">
+    <script src ="script.js"></script>
+
+</head>
+
+
+<body>
+
+<h1>Are you ready?</h1>
+
+<form id = "Quiz" name ="Quiz">
+
+
+<p>>= stands for not equal to</p>
+<input id ="mc" type = "radio" name = "question1" value = "True">True<br> 
+<input id ="mc" type = "radio" name = "question1" value = "False">False<br> 
+
+<p>Which of the following is not considered as an error in Javascript?</p>
+<input id ="mc" type = "radio" name = "question2" value = "Syntax error">Syntax error<br> 
+<input id ="mc" type = "radio" name = "question2" value = "Missing of semicolons">Missing of semicolons<br>
+<input id ="mc" type = "radio" name = "question2" value = "Division by zero">Division by zero<br> 
+<input id ="mc" type = "radio" name = "question2" value = "Missing of bracket">Missing of bracket<br>
+
+<p>How comfortable are you with Javascript?</p>
+<input id ="mc" type = "radio" name = "question3" value = "What is Javascript??">What is Javascript??<br> 
+<input id ="mc" type = "radio" name = "question3" value = "Uhm no comment">Uhm no comment<br>
+<input id ="mc" type = "radio" name = "question3" value = "Help me">Help me<br> 
+<input id ="mc" type = "radio" name = "question3" value = "I got this">I got this<br>
+
+<input id ="button" type ="button" value = "Submit" onclick ="check();">
+
+</form>
+
+<div id = "submit_after">
+<p id ="number_correct"></p>
+</div>
+
+
+
+
+
+</body>
+</html>
