@@ -10,46 +10,22 @@ $(document).ready(function () {
     var answered = false; //variable to stop the timer if user has clicked an answer
     var correct;
     var triviaGame = [{
-        question: "Making Bacon, and I put it in a Pancake. What's it gonna make ?",
-        answer: ["A Goldendoole", "An Artichoke", "Bacon Waffles", "Bacon Pancakes"],
+        question: "The acronym JS means what?",
+        answer: ["Javasob", "JavaSuit", "JavaSky", "JavaScript"],
         correct: "3",
-        image: ("assets/images/baconPancakes.jpg")
+        image: ("assets/images/JavaScript.jpg")
     }, {
-        question: "Babies are most like which of the following?",
-        answer: ["Dan Marino", "Drunk Adults", "Ace Ventura", "Dinosaurs"],
+        question: "Who was the creator of Git?",
+        answer: ["Jim Carrey", "Linus Torvalds", "Peevs&Wren", "Milo"],
         correct: "1",
-        image: ("assets//images/baby.jpg")
+        image: ("assets//images/GIT.jpg")
     }, {
-        question: "What does the Hubble Space Telescope do?",
-        answer: ["Take Pix of the Cosmos for Memes", "Grow Basil", "Think Deep Thoughts", "Sing Songs"],
+        question: "In HTML, Javascript must be inserted between?",
+        answer: ["script", "a", "div", "pic"],
         correct: "0",
-        image: ("assets//images/hubble.jpg")
-    }, {
-        question: "What is the Answer to Life the Universe and Everything?",
-        answer: ["Memes", "To Live a Good Life", "42", "Cloud Eggs"],
-        correct: "2",
-        image: ("assets//images/deepThoughts.png")
-    }, {
-        question: "When Hippos are upset, their sweat turns: ",
-        answer: ["Red", "Black", "Green", "Clear"],
-        correct: "0",
-        image: ("assets/images/hippo.jpg")
-    }, {
-        question: "Banging your Head Against a wall burns how many calories an hour?",
-        answer: ["10", "150", "25", "425"],
-        correct: "1",
-        image: ("assets//images/bang-head-on-wall.jpg")
-    }, {
-        question: "What is Lionel Richie's MOST Greatest Song?",
-        answer: ["All Night Long", "Deep Into the Night", "Carrabba Fiesta Forever", "Prince, formerly known as The Artist, formerly known as Prince"],
-        correct: "0",
-        image: ("assets//images/Lionel_Richie.jpg")
-    }, {
-        question: "What is your quest?",
-        answer: ["You seek the Holy Grail", "Blue, No...", "The airspeed of an unladen swallow", "I don't know that!"],
-        correct: "2",
-        image: ("assets//images/quest.jpeg")
-    }];
+        image: ("assets//images/Script2.jpg")
+    }, 
+  ];
 
     // ------------- FUNCTION DECLARATIONS ----------------------------
 
