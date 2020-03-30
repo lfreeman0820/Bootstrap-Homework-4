@@ -76,12 +76,13 @@ body {
 }
 
 .jumbotron {
-  background: #F8FFFA;
+  background: rgb(81, 24, 172);
+  background-color: rgb(27, 228, 27);
   border-width: 1px;
   border-color: black;
   border-style: dashed;
   margin-top: 80px;
-  height: 100%;
+  height: 75%;
 }
 
 p {
@@ -148,6 +149,7 @@ h5
   .container .jumbotron {
     padding-left: 0px;
     padding-right: 0px;
+    background-color: lightgreen;
   }
   .btn-primary {
     background-color: #98BFA3;
@@ -188,9 +190,11 @@ h5
   .jumbotron {
     margin-top: 20px;
     max-height: 597px;
+    background-color: lightsalmon;
   }
   .jumbotron h1 {
     font-size: 40px;
+    background-color: lightsalmon;
   }
   h3/*question*/
   {

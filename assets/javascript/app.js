@@ -23,7 +23,7 @@ $(document).ready(function () {
         question: "In HTML, Javascript must be inserted between?",
         answer: ["script", "a", "div", "pic"],
         correct: "0",
-        image: ("assets//images/Script2.jpg")
+        image: ("assets//images/Script3.jpg")
     }, 
   ];
 
